@@ -1,0 +1,26 @@
+\documentclass[oneside, twocolumn]{scrbook}
+
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{textcomp}
+
+\usepackage[T1]{fontenc}
+\usepackage[a5paper]{geometry}
+
+\author{Academia pro Interlingua}
+\date{}
+
+\newcommand{\entry}[5]{%
+    \markboth{#1}{#1}\par\noindent\textbf{#2}\ {(#1)} \textit{#3}
+    
+    #5
+    
+    \textit{#4}}
+
+\begin{document}
+\title{English \textrightarrow{} Latino sine flexione}\maketitle\chapter*{B}
+\entry{noun}{book}{libro}{}{}\chapter*{T}
+\entry{part}{to}{ø}{Te debe es primo.}{You have to be first.}
+\entry{part}{to}{ut}{Nos ede ut vive.}{We eat to live.}
+\entry{prep}{to}{ad}{Me e da libro ad illo.}{I gave the book to him.}
+\end{document}
